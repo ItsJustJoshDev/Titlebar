@@ -27,3 +27,11 @@ a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in 
     -webkit-text-fill-color: transparent;
 }
 ```
+> Discord Logo Version
+```css
+
+```
+> Discord Wordmark Version
+```css
+
+```
