@@ -30,17 +30,17 @@
 }
 .theme-light::after {
    content: var(--darklogo) !important;
-   width: 62px;
    position: absolute;
-   top: calc( calc(25px * .5) - 8px);
-   right:calc(50% - 31px);
    padding-left: 5px;
+   width: 20px;
+   top: calc( calc(25px * .5) - 10px);
+   right:calc(50% - -660px) !important;
 }
 .theme-light.app-focused::after {
    content: var(--focusedlogo) !important;
-   width: 62px;
+   width: 20px;
    position: absolute;
-   top: calc( calc(25px * .5) - 8px);
-   right:calc(50% - 31px);
+   top: calc( calc(25px * .5) - 10px);
+   right:calc(50% - -660px) !important;
    padding-left: 5px;
 }
