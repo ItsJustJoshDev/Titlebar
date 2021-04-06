@@ -3,74 +3,45 @@
 /* Original Theme Mac OS Titlebar Made By Doggybootsy#1333 */
 /* Big Thanks to him and the Open Styles Community */
 /* Imports */
-@import url(https://therealgwjosh.github.io/Workmark-Plus/src/Important.css);
-/* --Custom Wordmark SVG-- */ 
-.theme-dark::after {
-    content: var(--textmark) !important;
-	font-size: 14px !important;
-	background: var(--darknormal);
-	background-size: 400% 400% !important;
-	animation: Gradient1 5s ease infinite;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	font-weight: 600;
-	position: absolute;
-	font-family: "Discord";
-    width: var(--customwidth);
-    top: var(--customtop);
-    right: var(--customright)!important;
-    padding-left: 5px;
+@import url(https://therealgwjosh.github.io/Workmark-Plus/src/settingswatermark.css);
+/* CSS & Font */
+@font-face {
+    font-family: 'Discord';
+    src: url("https://therealgwjosh.github.io/Workmark-Plus/assets/Discord-Sans.otf") format("opentype");
 }
-.theme-dark.app-focused::after {
-    content: var(--textmark) !important;
-	font-size: 14px !important;
-	background: var(--darkfocused);
-	background-size: 400% 400% !important;
-	animation: Gradient1 5s ease infinite;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	font-weight: 600;
-	position: absolute;
-	font-family: "Discord";
-    width: var(--customwidth);
-    top: var(--customtop);
-    right: var(--customright)!important;
-    padding-left: 5px;
+html.theme-dark.app-focused #app-mount::before {
+    padding-left: 4px;
+    content: var(--textmark);
+    font-family: Discord;
+    line-height: 25px;
+    background: var(--darkfocused);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.theme-light::after {
-    content: var(--textmark) !important;
-	font-size: 14px !important;
-	background: var(--lightnormal);
-	background-size: 400% 400% !important;
-	animation: Gradient1 5s ease infinite;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	font-weight: 600;
-	position: absolute;
-	font-family: "Discord";
-    width: var(--customwidth);
-    top: var(--customtop);
-    right: var(--customright)!important;
-    padding-left: 5px;
+html.theme-dark #app-mount::before {
+    padding-left: 4px;
+    content: var(--textmark);
+    font-family: Discord;
+    line-height: 25px;
+    background:  var(--darknormal);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.theme-light.app-focused::after {
-    content: var(--textmark) !important;
-	font-size: 14px !important;
-	background: var(--lightfocused);
-	background-size: 400% 400% !important;
-	animation: Gradient1 5s ease infinite;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	font-weight: 600;
-	position: absolute;
-	font-family: "Discord";
-    width: var(--customwidth);
-    top: var(--customtop);
-    right: var(--customright)!important;
-    padding-left: 5px;
+html.theme-light.app-focused #app-mount::before {
+    padding-left: 4px;
+    content: var(--textmark);
+    font-family: Discord;
+    line-height: 25px;
+    background: var(--lightfocused);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-/* END */
+html.theme-light #app-mount::before {
+    padding-left: 4px;
+    content: var(--textmark);
+    font-family: Discord;
+    line-height: 25px;
+    background:  var(--lightnormal);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
