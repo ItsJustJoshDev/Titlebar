@@ -3,10 +3,9 @@ a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in 
 # Thank You :D 🎉
 > Thanks To Everyone Who Helped Me With this project
 > Thanks To The Open Styles Server and Doggybootsy#1333 & Kewl Sage from Hypesquad#2964
-
-![Image2](https://raw.githubusercontent.com/TheRealGWJosh/Workmark-Plus/main/assets/c1.png)
 ![Image](https://raw.githubusercontent.com/TheRealGWJosh/Workmark-Plus/main/assets/c2.png)
 ![Image3](https://raw.githubusercontent.com/TheRealGWJosh/Workmark-Plus/main/assets/c3.png)
+![Image2](https://raw.githubusercontent.com/TheRealGWJosh/Workmark-Plus/main/assets/c1.png)
 # Quick Ports
 - To Use these versions just create a new usercss file or css file in stylus and paste one of your choice! 
 > Custom Wordmark Version
