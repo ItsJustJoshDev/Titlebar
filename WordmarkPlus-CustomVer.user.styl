@@ -1,13 +1,21 @@
 @-moz-document domain("discord.com") /* ==UserStyle==
 @name           Wordmark+ Custom Version
 @namespace      https://github.com/TheRealGWJosh
-@version        1.0.0
+@version        1.0.1
 @description    A Quick Import to Give Web Users a Titlebar - Join The Discord Server qafdmryEye
 @author         It'sJustJosh#1156
 @license        CC0-1.0
 @preprocessor   uso
 @homepageURL    https://github.com/TheRealGWJosh/Workmark-Plus
 @supportURL     https://github.com/TheRealGWJosh/Workmark-Plus/issues
+@var color lf "Light Focused"                           #5568a6
+@var color df "Dark  Focused"                           #7289DA
+@var color ln "Light  Normal"                           #313232
+@var color dn "Dark   Normal"                           #66696a
+@var text  cw "Text    Width"                             500px
+@var text  cr "Text Position Right"           calc(50% - -180px)
+@var text  ct "Text Position   Top" calc( calc(35px * .5) - 8px)
+@var text  tm "Discord  Text"     "'Discord - Themed By Stylus'"
 ==/UserStyle== */{
 	
 /* --------------Wordmark+ Only WORKS ON WEB!--------------*/
@@ -29,14 +37,14 @@
 */
 
 :root{
- --textmark: 'Discord - Themed By Stylus';
- --customtop: calc( calc(35px * .5) - 8px);
- --customright: calc(50% - -180px) !important;
- --customwidth: 500px; 
- --lightfocused: linear-gradient(#5568a6, #4f5151) !important;
- --lightnormal: linear-gradient(#393a3b, #313232) !important;
- --darkfocused: linear-gradient(#7289DA, #5c5d5d) !important;
- --darknormal: linear-gradient(#7b7c7d, #66696a) !important;
+ --textmark:      /*[[tm]]*/;
+ --customtop:     /*[[ct]]*/;
+ --customright:   /*[[cr]]*/;
+ --customwidth:   /*[[cw]]*/; 
+ --lightfocused:  /*[[lf]]*/;
+ --lightnormal:   /*[[ln]]*/;
+ --darkfocused:   /*[[df]]*/;
+ --darknormal:    /*[[dn]]*/;
 }
 
 /*
