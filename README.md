@@ -3,7 +3,7 @@ a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in 
 # Thank You :D 🎉
 Thanks To Everyone Who Helped Me With this project
 Thanks To The Open Styles Server and Doggybootsy#1333
-[Image](https://raw.githubusercontent.com/TheRealGWJosh/Workmark-Plus/main/assets/c2.png)
+[Image!](https://raw.githubusercontent.com/TheRealGWJosh/Workmark-Plus/main/assets/c2.png)
 # Quick Ports
 - To Use these versions just create a new usercss file or css file in stylus and paste one of your choice! 
 > Custom Wordmark Version
