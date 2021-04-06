@@ -29,7 +29,7 @@ a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in 
 ```
 > Discord Logo Version
 ```css
-
+@import url(https://therealgwjosh.github.io/Workmark-Plus/src/IconImport.css);
 ```
 > Discord Wordmark Version
 ```css
