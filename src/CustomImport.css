@@ -5,10 +5,19 @@
 /* Imports */
 @import url(https://therealgwjosh.github.io/Workmark-Plus/src/settingswatermark.css);
 /* CSS & Font */
+[class*="base-"] > [class*="content-"] {background-color: var(--background-secondary);}
+[class*="sidebar-"] + div {border-top-left-radius: 8px;}
+[class*="base-"]{border-top-left-radius: 8px;}
+[class*="guilds-"]
+    [class*="scroller-"]
+    > [class*="listItem-"]:nth-last-child(-1n + 3) {
+    display: none;
+}
 @font-face {
     font-family: 'Discord';
     src: url("https://therealgwjosh.github.io/Workmark-Plus/assets/Discord-Sans.otf") format("opentype");
 }
+/* MAIN CODE */
 html.theme-dark.app-focused #app-mount::before {
     padding-left: 4px;
     content: var(--textmark);
