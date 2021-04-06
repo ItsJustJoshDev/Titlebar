@@ -2,7 +2,7 @@
 a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in Fullscreen. :D
 
 # Quick Ports
-
+- To Use these versions just create a new usercss file or css file in stylus and paste one of your choice! 
 > Custom Wordmark Version
 ```css
 :root{
@@ -33,5 +33,5 @@ a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in 
 ```
 > Discord Wordmark Version
 ```css
-
+@import url(https://therealgwjosh.github.io/Workmark-Plus/src/WordmarkImport.css);
 ```
