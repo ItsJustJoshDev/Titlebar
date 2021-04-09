@@ -3,13 +3,13 @@
 /* Original Theme Mac OS Titlebar Made By Doggybootsy#1333 */
 /* Big Thanks to him and the Open Styles Community */
 /* Imports */
-@import url(https://therealgwjosh.github.io/Workmark-Plus/src/Important.css);
+@import url(https://project-browser.github.io/Workmark-Plus/src/Important.css);
 /* Variables */
 :root{
 /* Logomark Images Change If You Want*/
- --lightlogo: url('https://therealgwjosh.github.io/Workmark-Plus/assets/Discord-Logo-White.svg');
- --focusedlogo: url('https://therealgwjosh.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg');
- --darklogo: url('https://therealgwjosh.github.io/Workmark-Plus/assets/Discord-Logo-Black.svg');
+ --lightlogo: url('https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-White.svg');
+ --focusedlogo: url('https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg');
+ --darklogo: url('https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Black.svg');
 }
 /* --Original Logomark SVG-- */ 
 .theme-dark::after {
