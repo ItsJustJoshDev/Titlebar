@@ -3,7 +3,7 @@
 /* Original Theme Mac OS Titlebar Made By Doggybootsy#1333 */
 /* Big Thanks to him and the Open Styles Community */
 /* Imports */
-@import url(https://therealgwjosh.github.io/Workmark-Plus/src/settingswatermark.css);
+@import url(https://project-browser.github.io/Workmark-Plus/src/settingswatermark.css);
 /* CSS & Font */
 [class*="base-"] > [class*="content-"] {background-color: var(--background-secondary);}
 [class*="sidebar-"] + div {border-top-left-radius: 8px;}
