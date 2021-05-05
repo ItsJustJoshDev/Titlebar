@@ -15,10 +15,6 @@ a Small addon for Discord Web Users to get and Enjoy a Titlebar Looks Better in 
  --darknormal:    #66696a;
 }
 ```
-> Discord Logo Version
-```css
-@import url(https://therealgwjosh.github.io/Workmark-Plus/src/IconImport.css);
-```
 > Discord Wordmark Version
 ```css
 @import url(https://therealgwjosh.github.io/Workmark-Plus/src/WordmarkImport.css);
