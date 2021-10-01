@@ -2,7 +2,7 @@ Coming Soon
 # Wordmark +
 
 ## Linux
-```
+```css
 @import url("https://project-browser.github.io/Workmark-Plus/src/main.css");
 
 :root {
@@ -24,12 +24,11 @@ Coming Soon
 ```css
 @import url("https://project-browser.github.io/Workmark-Plus/src/client.css");
 
-
 :root {
 
- --WM-Text: 	 "Wordmark+ Dev Testing - Lamo";
- --WM-Position: 	    var(--wordmark-default); /* var(--classic-center) */
- --WM-Content: 				var(--classic-text); /* var(--custom-text) */
- --WM-Type: 				var(--rebrand-font); /* var(--classic-font) */
+ --WM-Text:                   "Wordmark+ Dev Testing - Lamo";
+ --WM-Content:  var(--classic-text); /* var(--custom-text) */
+ --WM-Type: 			var(--rebrand-font); /* var(--classic-font) */
 
 }
+```
