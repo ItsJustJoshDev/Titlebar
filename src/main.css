@@ -1,0 +1,78 @@
+/* Font & Exrta Import */
+@import url("https://project-browser.github.io/Workmark-Plus/src/Important.css");
+
+:root {
+
+	/* Import Vars */
+	--rebrand-font: 'Atkinson Hyperlegible', sans-serif;
+	--classic-font: 'Discord';
+	--classic-text: "Discord";
+	--global-padding-top: var(--WM-Global-Top);
+	--global-line-height: 25px;
+	--global-webkit-fill: transparent;
+	--custom-text: var(--WM-Text) !important;
+	--global-padding-left: var(--WM-Position);
+	/* Wordmark Position */
+	--wordmark-padding-top: 3px;
+	--classic-center: 650px;
+	--wordmark-default: 6px;
+	/* Font Weight */
+	--rebrand-weight: 900 !important;
+	--classic-weight: ;
+
+}
+
+/* CSS */
+[class*="sidebar"] {background: transparent;border-radius:  8px 0px 0px 0px;}
+
+html.theme-dark.app-focused #app-mount::before {
+    padding-left: var(--global-padding-left);
+    padding-top: var(--global-padding-top);
+    content: var(--WM-Content) !important;
+	font: var(--WM-Type);
+	font-weight: var(--WM-Font-Weight);
+	font-family: var(--WM-Type);
+    line-height: var(--global-line-height);
+    background: var(--WM-Dark-Focused);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--global-webkit-fill);
+}
+
+html.theme-dark #app-mount::before {
+    padding-left: var(--global-padding-left);
+    padding-top: var(--global-padding-top);
+    content: var(--WM-Content);
+	font: var(--WM-Type);
+	font-weight: var(--WM-Font-Weight);
+	font-family: var(--WM-Type);
+    line-height: var(--global-line-height);
+    background:  var(--WM-Dark-Default);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--global-webkit-fill);
+}
+
+html.theme-light.app-focused #app-mount::before {
+    padding-left: var(--global-padding-left);
+    padding-top: var(--global-padding-top);
+    content: var(--WM-Content);
+	font: var(--WM-Type);
+	font-weight: var(--WM-Font-Weight);
+	font-family: var(--WM-Type);
+    line-height: var(--global-line-height);
+    background: var(--WM-Light-Focused);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--global-webkit-fill);
+}
+
+html.theme-light #app-mount::before {
+    padding-left: var(--global-padding-left);
+    padding-top: var(--global-padding-top);
+    content: var(--WM-Content);
+	font: var(--WM-Type);
+	font-weight: var(--WM-Font-Weight);
+	font-family: var(--WM-Type);
+    line-height: var(--global-line-height);
+    background:  var(--WM-Light-Default);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--global-webkit-fill);
+}
