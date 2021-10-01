@@ -1,0 +1,28 @@
+/* Font & Exrta Import */
+@import url("https://project-browser.github.io/Workmark-Plus/src/Important.css");
+
+html.theme-dark.app-focused [class*="wordmark"]:after,
+html.theme-light.app-focused [class*="wordmark"]:after {
+  content: var(--WM-Content);
+  font-size: 15px;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+  font-family: var(--WM-Type);
+  color: var(--brand-experiment);
+}
+html.theme-dark [class*="wordmark"]:after,
+html.theme-light [class*="wordmark"]:after {
+  content: var(--WM-Content);
+  font-size: 15px;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+  font-family: var(--WM-Type);
+  color: var(--header-primary);
+}
+[class*="wordmark"] > svg {
+  width: 0px;
+}
