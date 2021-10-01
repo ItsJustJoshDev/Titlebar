@@ -1,25 +1,7 @@
-/* Wordmark+ Web Version Only*/
-/* Made By It'sJustJosh#1156 */
-/* Original Theme Mac OS Titlebar Made By Doggybootsy#1333 */
-/* Big Thanks to him and the Open Styles Community */
-/* Imports */
-@import url(https://project-browser.github.io/Workmark-Plus/src/settingswatermark.css);
-/* CSS & Font */
-[class*="base-"] > [class*="content-"] {background-color: var(--background-secondary);}
-[class*="sidebar-"] + div {border-top-left-radius: 8px;}
-[class*="base-"]{border-top-left-radius: 8px;}
-.theme-dark {position: absolute;width: calc(auto * 100%);z-index: 3001;background: linear-gradient(#43494d, #353d40);}
-.theme-light {position: absolute;width: calc(auto * 100%);z-index: 3001;background: linear-gradient(#e5e5e5, #cccdcd);}
-.app-1q1i1E{margin:1px;margin-top: 25px;}
-.wrapper-1Rf91z {margin-top: 0px;}
-.scroller-2TZvBN{padding-top:4px;}
-[class*="guilds-"]
-    [class*="scroller-"]
-    > [class*="listItem-"]:nth-last-child(-1n + 3) {
-    display: none;
-}
-@font-face {
-	font-family: 'Discord';
-	font-weight: 700;
-	src: url("https://raw.githubusercontent.com/powercord-org/powercord-backend/my-awesome-branch/web/src/assets/discord-font.otf") format("opentype");
-}
+/* Wordmark+ Web Version Only Linux(WIP) Made By It'sJustJosh#1156 
+        Original Addon Mac OS Titlebar Made By Doggybootsy#1333 
+           Big Thanks to him and the Open Styles Community         */
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {font-family: 'Discord'; src: url("https://project-browser.github.io/Workmark-Plus/assets/fonts/Discord-Sans.otf") format("opentype");}
