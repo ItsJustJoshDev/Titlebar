@@ -1,23 +1,7 @@
 /* Font & Exrta Import */
 @import url("https://project-browser.github.io/Workmark-Plus/src/Important.css");
 
-:root {
 
-	/* Import Vars */
-	--rebrand-font: 'Rubik Mono One', sans-serif;
-	--classic-font: 'Discord';
-	--classic-text: "Discord";
-	--global-padding-top: var(--WM-Global-Top);
-	--global-line-height: 25px;
-	--global-webkit-fill: transparent;
-	--custom-text: var(--WM-Text) !important;
-	--global-padding-left: var(--WM-Position);
-	/* Wordmark Position */
-	--wordmark-padding-top: 3px;
-	--classic-center: 650px;
-	--wordmark-default: 6px;
-
-}
 
 /* CSS */
 [class*="sidebar"] {background: transparent;border-radius:  8px 0px 0px 0px;}
