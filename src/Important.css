@@ -21,5 +21,6 @@
 	--wordmark-padding-top: 3px;
 	--classic-center: 650px;
 	--wordmark-default: 6px;
+ 	--WM-Global-Top: 	var(--wordmark-padding-top);
 
 }
