@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name                                                                           Wordmark+
+@namespace                                               https://github.com/TheRealGWJosh
+@version                                                                            2.0.1
+@description                                 A Quick Import to Give Web Users a Titlebar.
+@author                                                                 It'sJustJosh#1156
+@license                                                                          CC0-1.0
+@preprocessor                                                                         uso
+@homepageURL                               https://github.com/TheRealGWJosh/Workmark-Plus
+@supportURL                         https://github.com/TheRealGWJosh/Workmark-Plus/issues
+@var select font "Text Font Classic/Rebrand" {
+"Classic":                                       					    "--classic-font",
+"Rebrand":                                                              "--rebrand-font"}
+@var select position "Position Center/Left" {
+"Left":                                       					    "--wordmark-default",
+"Center":                                                             "--classic-center"}
+@var text  tm "Discord  Text"                                "Discord - Themed By Stylus"
+@var select text "Discord Text Classic/Custom" {
+"Classic":                                       					    "--classic-text",
+"Custom":                                                                "--custom-text"}
+==/UserStyle== */ @-moz-document domain("discord.com") {
+
+	@import url("https://project-browser.github.io/Workmark-Plus/src/main.css");
+
+	:root {
+
+ 	--WM-Text: 	 				   "/*[[tm]]*/";
+ 	--WM-Position: 	      var(/*[[position]]*/);
+ 	--WM-Content: 		 		  var(/*[[text]]*/);
+ 	--WM-Type: 		 		  var(/*[[font]]*/);
+ 	--WM-Light-Focused:	var(--brand-experiment);
+ 	--WM-Light-Default:	  var(--header-primary);
+ 	--WM-Dark-Focused:		var(--brand-experiment);
+ 	--WM-Dark-Default:	   	  var(--header-primary); 
+
+	}
+
+}
