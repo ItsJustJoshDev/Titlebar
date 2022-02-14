@@ -1,4 +1,8 @@
 @font-face {
-  font-family: 'Ginto Nord Bold';
-  src: url("https://itsjustjoshdev.github.io/cdn/Fonts/Discord-GintoNord.woff") format("opentype");
+  font-family: 'Discord Rebrand';
+  font-style: normal;
+  font-weight: 1000;
+  font-display: swap;
+  src: url("https://itsjustjoshdev.github.io/cdn/Fonts/Discord-GintoNord.woff") format("woff");
+  unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
 }
