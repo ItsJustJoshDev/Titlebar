@@ -3,7 +3,7 @@ Coming Soon
 
 ## Linux
 ```css
-@import url("https://project-browser.github.io/Workmark-Plus/src/main.css");
+@import url("https://itsjustjoshdev.github.io/Titlebar/src/main.css");
 
 :root {
 
@@ -22,7 +22,7 @@ Coming Soon
 
 ## Windows
 ```css
-@import url("https://project-browser.github.io/Workmark-Plus/src/client.css");
+@import url("https://itsjustjoshdev.github.io/Titlebar/src/client.css");
 
 :root {
 
