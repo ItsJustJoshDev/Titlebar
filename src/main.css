@@ -1,13 +1,12 @@
 /* Font & Exrta Import */
 @import url("https://itsjustjoshdev.github.io/Titlebar/src/base.css");
 
-
-
 /* CSS */
 [class*="sidebar"] {background: transparent;border-radius:  8px 0px 0px 0px;}
 
 html.theme-dark.app-focused #app-mount::before {
-    padding-left: var(--global-padding-left);
+    margin-left: 10px;
+    margin-right: 10px;
     padding-top: var(--global-padding-top);
     content: var(--WM-Content) !important;
 	font: var(--WM-Type);
@@ -16,11 +15,13 @@ html.theme-dark.app-focused #app-mount::before {
     background: var(--WM-Dark-Focused);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
+	text-align: left !important;
+	justify-content: center !important;
 }
 
 html.theme-dark #app-mount::before {
-    padding-left: var(--global-padding-left);
-    padding-top: var(--global-padding-top);
+    margin-left: 10px;
+    margin-right: 10px;
     content: var(--WM-Content);
 	font: var(--WM-Type);
 	font-family: var(--WM-Type);
@@ -28,11 +29,13 @@ html.theme-dark #app-mount::before {
     background:  var(--WM-Dark-Default);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
+	text-align: left !important;
+	justify-content: center !important;
 }
 
 html.theme-light.app-focused #app-mount::before {
-    padding-left: var(--global-padding-left);
-    padding-top: var(--global-padding-top);
+    margin-left: 10px;
+    margin-right: 10px;
     content: var(--WM-Content);
 	font: var(--WM-Type);
 	font-family: var(--WM-Type);
@@ -40,11 +43,13 @@ html.theme-light.app-focused #app-mount::before {
     background: var(--WM-Light-Focused);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
+	text-align: left !important;
+	justify-content: center !important;
 }
 
 html.theme-light #app-mount::before {
-    padding-left: var(--global-padding-left);
-    padding-top: var(--global-padding-top);
+    margin-left: 10px;
+    margin-right: 10px;
     content: var(--WM-Content);
 	font: var(--WM-Type);
 	font-family: var(--WM-Type);
@@ -52,4 +57,6 @@ html.theme-light #app-mount::before {
     background:  var(--WM-Light-Default);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
+	text-align: left !important;
+	justify-content: center !important;
 }
