@@ -13,6 +13,7 @@
   font-family: var(--WM-Type);
   color: var(--brand-experiment);
   font-size: 13px;
+	text-align: var(--global-padding-left) !important;
 }
 .theme-dark [class*="titleBar"] > [class*="wordmark"]::after,
 .theme-light [class*="titleBar"] > [class*="wordmark"]::after {
@@ -23,4 +24,5 @@
   font-family: var(--WM-Type);
   color: var(--header-primary);
   font-size: 13px;
+	text-align: var(--global-padding-left) !important;
 }
