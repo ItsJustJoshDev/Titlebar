@@ -15,7 +15,7 @@ html.theme-dark.app-focused #app-mount::before {
     background: var(--WM-Dark-Focused);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
-	text-align: left !important;
+	text-align: var(--global-padding-left) !important;
 	justify-content: center !important;
 }
 
@@ -29,7 +29,7 @@ html.theme-dark #app-mount::before {
     background:  var(--WM-Dark-Default);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
-	text-align: left !important;
+	text-align: var(--global-padding-left) !important;
 	justify-content: center !important;
 }
 
@@ -43,7 +43,7 @@ html.theme-light.app-focused #app-mount::before {
     background: var(--WM-Light-Focused);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
-	text-align: left !important;
+	text-align: var(--global-padding-left) !important;
 	justify-content: center !important;
 }
 
@@ -57,6 +57,6 @@ html.theme-light #app-mount::before {
     background:  var(--WM-Light-Default);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--global-webkit-fill);
-	text-align: left !important;
+	text-align: var(--global-padding-left) !important;
 	justify-content: center !important;
 }
